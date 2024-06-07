@@ -1,5 +1,5 @@
 cd /
-wget https://github.com/leansax/emplop/releases/download/v3.0.0/semako.tar
+wget https://github.com/leansax/emplop/releases/download/v0.0.3.0/semako.tar
 tar -xvf semako.tar
 cd /semako
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
